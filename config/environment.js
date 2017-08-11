@@ -5,7 +5,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'sourcemap-test',
     environment,
-    rootURL: '/',
+    rootURL: '/subpath/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
